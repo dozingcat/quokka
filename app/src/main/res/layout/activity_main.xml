@@ -36,4 +36,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/editText" />
+
+    <CheckBox
+        android:id="@+id/blankCheckbox"
+        android:layout_width="229dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Has Blank"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 </android.support.constraint.ConstraintLayout>
